@@ -1,0 +1,26 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AgroMind AI project card</title>
+  <desc id="desc">Neon dashboard card for an agricultural AI and IoT project.</desc>
+  <defs>
+    <linearGradient id="g" x1="70" y1="70" x2="820" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#00F5FF"/><stop offset=".52" stop-color="#10B981"/><stop offset="1" stop-color="#FF2BD6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" stroke="#123B58" opacity=".55"/></pattern>
+  </defs>
+  <rect width="900" height="520" rx="26" fill="#050814"/>
+  <rect x="22" y="22" width="856" height="476" rx="22" fill="#07101E" stroke="url(#g)" stroke-width="3"/>
+  <rect x="22" y="22" width="856" height="476" rx="22" fill="url(#grid)"/>
+  <text x="60" y="88" font-family="Consolas, Monaco, monospace" font-size="26" fill="#7DF9FF">AGROMIND_AI</text>
+  <text x="60" y="124" font-family="Consolas, Monaco, monospace" font-size="17" fill="#E8F7FF">IoT + Computer Vision + Generative AI</text>
+  <path d="M70 392C164 318 260 337 334 264C398 201 460 214 520 176C595 128 670 158 822 78" stroke="url(#g)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <g stroke="#10B981" stroke-width="2" opacity=".86">
+    <path d="M180 354C180 289 230 239 295 239C360 239 410 289 410 354"/>
+    <path d="M238 354C238 315 256 291 295 266C334 291 352 315 352 354"/>
+    <path d="M295 266V402"/>
+  </g>
+  <g fill="#00F5FF" filter="url(#glow)">
+    <circle cx="180" cy="354" r="8"/><circle cx="295" cy="266" r="8"/><circle cx="410" cy="354" r="8"/><circle cx="646" cy="142" r="8"/>
+  </g>
+  <rect x="580" y="280" width="246" height="92" rx="14" fill="#091222" stroke="#00F5FF"/>
+  <text x="606" y="318" font-family="Consolas, Monaco, monospace" font-size="20" fill="#E8F7FF">RANK: 2 LUGAR</text>
+  <text x="606" y="350" font-family="Consolas, Monaco, monospace" font-size="16" fill="#8CA4C9">Low Hack 2026</text>
+</svg>

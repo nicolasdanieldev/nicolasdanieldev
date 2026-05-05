@@ -1,0 +1,61 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nicolas Devs NeonForge banner</title>
+  <desc id="desc">Dark neon cyber interface banner with cyan and magenta glow.</desc>
+  <defs>
+    <linearGradient id="neon" x1="140" y1="48" x2="1460" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00F5FF"/>
+      <stop offset=".48" stop-color="#7C3DFF"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+      <animate attributeName="x1" values="80;240;80" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1520;1360;1520" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="70%">
+      <stop offset="0" stop-color="#132B45"/>
+      <stop offset=".55" stop-color="#070B18"/>
+      <stop offset="1" stop-color="#02040B"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 .9  0 0 0 0 1  0 0 0 .95 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" stroke="#0A5B77" stroke-width="1" opacity=".25"/>
+    </pattern>
+    <pattern id="scan" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="1.5" fill="#99F6FF" opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="420" fill="url(#core)"/>
+  <rect width="1600" height="420" fill="url(#grid)" opacity=".85"/>
+  <rect width="1600" height="420" fill="url(#scan)"/>
+
+  <path d="M-40 326C178 264 299 254 452 292C654 343 790 330 1003 224C1221 116 1397 89 1640 140" stroke="#00F5FF" stroke-width="2" opacity=".34">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M-40 326C178 264 299 254 452 292C654 343 790 330 1003 224C1221 116 1397 89 1640 140;M-40 284C170 342 304 322 472 246C650 166 832 172 1028 246C1240 326 1392 306 1640 186;M-40 326C178 264 299 254 452 292C654 343 790 330 1003 224C1221 116 1397 89 1640 140"/>
+  </path>
+  <path d="M-40 188C161 82 345 80 539 168C722 250 893 257 1090 180C1304 96 1454 93 1640 184" stroke="#FF2BD6" stroke-width="2" opacity=".28">
+    <animate attributeName="opacity" values=".12;.4;.12" dur="3.6s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="176" y="62" width="1248" height="296" rx="24" fill="#050814" stroke="url(#neon)" stroke-width="3" opacity=".94"/>
+  <rect x="216" y="94" width="1168" height="42" rx="21" fill="#091222" stroke="#123B58"/>
+  <circle cx="246" cy="115" r="6" fill="#FF2BD6"/>
+  <circle cx="270" cy="115" r="6" fill="#FFB800"/>
+  <circle cx="294" cy="115" r="6" fill="#00F5FF"/>
+  <text x="330" y="121" font-family="Consolas, Monaco, monospace" font-size="20" fill="#8FF8FF">github.com/NicolasDevs :: /neonforge-readme</text>
+
+  <text x="236" y="218" font-family="Consolas, Monaco, monospace" font-size="34" fill="#7DF9FF" filter="url(#glow)">const profile = forge("frontend", "backend", "motion");</text>
+  <text x="236" y="292" font-family="Arial Black, Impact, sans-serif" font-size="82" fill="url(#neon)" filter="url(#glow)">NICOLAS DEVS</text>
+  <text x="1034" y="292" font-family="Consolas, Monaco, monospace" font-size="26" fill="#E8F7FF">BUILDING IN PUBLIC</text>
+
+  <g opacity=".86">
+    <rect x="1136" y="162" width="206" height="64" rx="12" fill="#071321" stroke="#00F5FF"/>
+    <text x="1160" y="201" font-family="Consolas, Monaco, monospace" font-size="22" fill="#00F5FF">STATUS: ONLINE</text>
+    <rect x="1136" y="242" width="206" height="64" rx="12" fill="#120A24" stroke="#FF2BD6"/>
+    <text x="1160" y="281" font-family="Consolas, Monaco, monospace" font-size="22" fill="#FF9CF1">MODE: NEON</text>
+  </g>
+</svg>

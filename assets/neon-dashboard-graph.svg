@@ -1,0 +1,59 @@
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Neon dashboard activity graph</title>
+  <desc id="desc">Cyber neon line chart inspired by a dark portfolio dashboard.</desc>
+  <defs>
+    <linearGradient id="line" x1="120" y1="250" x2="1280" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".5" stop-color="#7C3DFF"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <linearGradient id="area" x1="700" y1="76" x2="700" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF" stop-opacity=".38"/>
+      <stop offset=".48" stop-color="#7C3DFF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#050814" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0  0 0 0 0 .9  0 0 0 0 1  0 0 0 .9 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="70" height="52" patternUnits="userSpaceOnUse">
+      <path d="M70 0H0V52" stroke="#123B58" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <pattern id="scan" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="1" fill="#8FF8FF" opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="360" rx="24" fill="#050814"/>
+  <rect x="22" y="22" width="1356" height="316" rx="18" fill="#07101E" stroke="#123B58"/>
+  <rect x="22" y="22" width="1356" height="316" rx="18" fill="url(#grid)"/>
+  <rect x="22" y="22" width="1356" height="316" rx="18" fill="url(#scan)"/>
+  <text x="62" y="68" font-family="Consolas, Monaco, monospace" font-size="24" fill="#E8F7FF">signal.board / contribution-pulse</text>
+  <text x="62" y="104" font-family="Consolas, Monaco, monospace" font-size="16" fill="#75EFFF">NEONFORGE TELEMETRY</text>
+  <text x="1108" y="68" font-family="Consolas, Monaco, monospace" font-size="18" fill="#FF9CF1">STATUS: ONLINE</text>
+  <path d="M90 287C140 253 175 247 220 260C266 274 298 241 340 218C383 195 421 214 465 190C511 164 544 127 590 145C636 163 659 222 703 205C750 187 788 106 830 118C874 130 900 197 944 181C987 165 1018 102 1062 87C1104 73 1136 130 1176 121C1218 112 1248 76 1310 92" stroke="#00F5FF" stroke-width="14" opacity=".13" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M90 287C140 253 175 247 220 260C266 274 298 241 340 218C383 195 421 214 465 190C511 164 544 127 590 145C636 163 659 222 703 205C750 187 788 106 830 118C874 130 900 197 944 181C987 165 1018 102 1062 87C1104 73 1136 130 1176 121C1218 112 1248 76 1310 92L1310 318L90 318Z" fill="url(#area)"/>
+  <path d="M90 287C140 253 175 247 220 260C266 274 298 241 340 218C383 195 421 214 465 190C511 164 544 127 590 145C636 163 659 222 703 205C750 187 788 106 830 118C874 130 900 197 944 181C987 165 1018 102 1062 87C1104 73 1136 130 1176 121C1218 112 1248 76 1310 92" stroke="url(#line)" stroke-width="4" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="40 14;12 18;40 14" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#050814" stroke="#7DF9FF" stroke-width="3" filter="url(#glow)">
+    <circle cx="220" cy="260" r="7"/>
+    <circle cx="465" cy="190" r="7"/>
+    <circle cx="590" cy="145" r="7"/>
+    <circle cx="830" cy="118" r="7"/>
+    <circle cx="1062" cy="87" r="7"/>
+    <circle cx="1310" cy="92" r="7"/>
+  </g>
+  <g font-family="Consolas, Monaco, monospace" font-size="15" fill="#8CA4C9">
+    <text x="92" y="333">JAN</text>
+    <text x="292" y="333">MAR</text>
+    <text x="492" y="333">MAY</text>
+    <text x="692" y="333">JUL</text>
+    <text x="892" y="333">SEP</text>
+    <text x="1092" y="333">NOV</text>
+    <text x="1262" y="333">NOW</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="900" height="520" viewBox="0 0 900 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">EcoTrip project card</title>
+  <desc id="desc">Neon map and environmental impact dashboard for EcoTrip.</desc>
+  <defs>
+    <linearGradient id="g" x1="72" y1="70" x2="820" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#00F5FF"/><stop offset=".55" stop-color="#2F81F7"/><stop offset="1" stop-color="#7C3DFF"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" stroke="#123B58" opacity=".55"/></pattern>
+  </defs>
+  <rect width="900" height="520" rx="26" fill="#050814"/>
+  <rect x="22" y="22" width="856" height="476" rx="22" fill="#07101E" stroke="url(#g)" stroke-width="3"/>
+  <rect x="22" y="22" width="856" height="476" rx="22" fill="url(#grid)"/>
+  <text x="60" y="88" font-family="Consolas, Monaco, monospace" font-size="26" fill="#7DF9FF">ECOTRIP</text>
+  <text x="60" y="124" font-family="Consolas, Monaco, monospace" font-size="17" fill="#E8F7FF">CO2 calculator + Leaflet.js + API</text>
+  <path d="M118 360C188 280 255 334 316 246C364 176 440 204 512 150C588 94 673 142 788 92" stroke="url(#g)" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+  <g fill="#050814" stroke="#00F5FF" stroke-width="3" filter="url(#glow)">
+    <circle cx="118" cy="360" r="12"/><circle cx="316" cy="246" r="12"/><circle cx="512" cy="150" r="12"/><circle cx="788" cy="92" r="12"/>
+  </g>
+  <g font-family="Consolas, Monaco, monospace">
+    <rect x="92" y="388" width="224" height="72" rx="14" fill="#091222" stroke="#00F5FF"/>
+    <text x="118" y="430" font-size="22" fill="#E8F7FF">impact: -32%</text>
+    <rect x="570" y="326" width="230" height="72" rx="14" fill="#091222" stroke="#7C3DFF"/>
+    <text x="596" y="368" font-size="22" fill="#E8F7FF">route: smart</text>
+  </g>
+</svg>

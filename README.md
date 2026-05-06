@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Portfolio-nicolasdaniel.dev-00F5FF?style=for-the-badge&labelColor=050814&color=00F5FF" alt="Portfolio" />
 </a>
 <a href="https://github.com/NicolasSoft">
-  <img src="https://img.shields.io/badge/GitHub-NicolasSoft-050814?style=for-the-badge&logo=github&logoColor=00F5FF&labelColor=080B18" alt="GitHub NicolasSoft" />
+  <img src="https://img.shields.io/badge/GitHub-Nicolasdanieldev-050814?style=for-the-badge&logo=github&logoColor=00F5FF&labelColor=080B18" alt="GitHub Nicolasdaieldev" />
 </a>
 <a href="https://www.linkedin.com/in/nicolasdanielsantos">
   <img src="https://img.shields.io/badge/LinkedIn-Nicolas_Daniel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=050814" alt="LinkedIn" />

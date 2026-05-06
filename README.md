@@ -193,6 +193,7 @@
 <img src="https://img.shields.io/badge/FIAP-Cloud_Fundamentals-00F5FF?style=for-the-badge&labelColor=050814" alt="FIAP Cloud Fundamentals" />
 <img src="https://img.shields.io/badge/FIAP-Python_Development-7C3DFF?style=for-the-badge&labelColor=050814" alt="FIAP Python Development" />
 <img src="https://img.shields.io/badge/FIAP-Engenharia_de_Software-FF2BD6?style=for-the-badge&labelColor=050814" alt="FIAP Engenharia de Software" />
+<img src="https://img.shields.io/badge/AWS-Certified Cloud Practitioner-FF2BD6?style=for-the-badge&labelColor=050814" alt="AWS Cloud Practitioner" />
 <img src="https://img.shields.io/badge/SENAI-Seguranca_Cibernetica-00F5FF?style=for-the-badge&labelColor=050814" alt="SENAI Seguranca Cibernetica" />
 <img src="https://img.shields.io/badge/DIO-GenAI_%26_Dados-7C3DFF?style=for-the-badge&labelColor=050814" alt="DIO GenAI e Dados" />
 <img src="https://img.shields.io/badge/DIO-GitHub_Copilot-FF2BD6?style=for-the-badge&labelColor=050814" alt="DIO GitHub Copilot" />

@@ -1,16 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:7C3DFF,100:FF2BD6&height=220&section=header&text=Nicolas%20Daniel%20Santos&fontSize=44&fontColor=FFFFFF&fontAlignY=35&desc=FULL%20STACK%20%2F%2F%20SECURE%20BY%20DESIGN&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Nicolas Daniel Santos — Full Stack e Secure by Design" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=20&pause=1100&color=00F5FF&center=true&vCenter=true&width=920&lines=%5Bsecure_session%3A%3Ainitialized%5D;Full+Stack+Development+%2B+Cybersecurity;APIs+%2F%2F+Databases+%2F%2F+Cloud;Building+real+solutions%2C+secure+by+design" alt="Full Stack Development, Cybersecurity, APIs, bancos de dados e cloud" />
-</a>
-
-<br />
-
-<img src="https://img.shields.io/badge/STATUS-OPEN_TO_INTERNSHIP-00C853?style=for-the-badge&labelColor=07111F" alt="Disponível para estágio" />
-<img src="https://img.shields.io/badge/ADS-IFSP_CAMPINAS_%2F%2F_2027-7C3DFF?style=for-the-badge&labelColor=07111F" alt="ADS no IFSP Campinas, conclusão prevista para 2027" />
-<img src="https://img.shields.io/badge/NODE-CAMPINAS__SP-00F5FF?style=for-the-badge&labelColor=07111F" alt="Campinas, São Paulo" />
+<img src="./assets/hero-cyber.svg" width="100%" alt="Nicolas Daniel Santos — Full Stack e Cybersecurity" />
 
 <br /><br />
 
@@ -20,8 +10,7 @@
 
 <br /><br />
 
-<img src="https://komarev.com/ghpvc/?username=nicolasdanieldev&label=PROFILE%20VIEWS&color=00F5FF&style=flat-square" alt="Visualizações do perfil" />
-<img src="https://img.shields.io/github/followers/nicolasdanieldev?label=FOLLOWERS&style=flat-square&color=7C3DFF" alt="Seguidores no GitHub" />
+`17+ PROJETOS` · `2º LUGAR EM HACKATHON` · `ADS @ IFSP 2027` · `CAMPINAS_SP`
 
 </div>
 
@@ -113,12 +102,14 @@ Estudos atuais: **OWASP Top 10, SQL Injection, XSS, IDOR, autenticação, segura
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://nicoverse.netlify.app/assets/projects/salontech.jpg" width="100%" alt="Interface do SalonTech" />
       <h3>SalonTech</h3>
       <p>Sistema para centralizar clientes, funcionários, serviços e operações de salões, com validação, autenticação e controle de acesso.</p>
       <p><strong>Stack:</strong> HTML, CSS, JavaScript, Bootstrap, Supabase e Firebase.</p>
       <a href="https://github.com/nicolasdanieldev/SalonTech"><strong>INSPECT_REPOSITORY →</strong></a>
     </td>
     <td width="50%" valign="top">
+      <img src="https://nicoverse.netlify.app/assets/projects/techfinance.png" width="100%" alt="Interface do TechFinance" />
       <h3>TechFinance</h3>
       <p>Aplicação financeira que transforma movimentações, saldo, gastos e metas em informação útil para tomada de decisão.</p>
       <p><strong>Stack:</strong> JavaScript, Node.js, REST API e PostgreSQL.</p>
@@ -127,12 +118,14 @@ Estudos atuais: **OWASP Top 10, SQL Injection, XSS, IDOR, autenticação, segura
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://nicoverse.netlify.app/assets/projects/ecotrip.jpg" width="100%" alt="Interface do EcoTrip Impact Calculator" />
       <h3>EcoTrip Impact Calculator</h3>
       <p>Calculadora comparativa que transforma emissões de rotas e transportes em informação ambiental compreensível.</p>
       <p><strong>Stack:</strong> JavaScript, Chart.js, Web Storage, HTML e CSS.</p>
       <a href="https://github.com/nicolasdanieldev/EcoTrip-Calculadora-Inteligente-de-Impacto-Ambiental"><strong>INSPECT_REPOSITORY →</strong></a>
     </td>
     <td width="50%" valign="top">
+      <img src="https://nicoverse.netlify.app/assets/gestos-ai-preview.png" width="100%" alt="Interface do projeto IA de Gestos" />
       <h3>IA de Gestos</h3>
       <p>Reconhecimento de gestos com webcam, interface visual, suavização de predições e registro de resultados.</p>
       <p><strong>Stack:</strong> Python 3.11 e OpenCV.</p>
@@ -169,11 +162,6 @@ Solução que conecta tecnologia, dados e inovação aplicada ao agronegócio �
 ## `./github_analytics --live`
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=nicolasdanieldev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=7C3DFF&text_color=C9D1D9&locale=pt-br" alt="Estatísticas do GitHub de Nicolas Daniel" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nicolasdanieldev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5FF&text_color=C9D1D9&langs_count=8" alt="Linguagens mais utilizadas por Nicolas Daniel" />
-
-<br />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=nicolasdanieldev&bg_color=0D1117&color=00F5FF&line=7C3DFF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Gráfico de contribuições de Nicolas Daniel" />
 

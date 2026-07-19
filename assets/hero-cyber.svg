@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Nicolas Daniel Santos — Full Stack e Cybersecurity</title>
+  <desc id="desc">Banner animado com terminal, escudo digital, serpente cyber, rede e indicadores de segurança.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080d"/>
+      <stop offset="0.52" stop-color="#09131f"/>
+      <stop offset="1" stop-color="#0b0717"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5ff"/>
+      <stop offset="0.52" stop-color="#7c3dff"/>
+      <stop offset="1" stop-color="#ff2bd6"/>
+    </linearGradient>
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#00f5ff" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frameClip"><rect x="18" y="18" width="1164" height="384" rx="18"/></clipPath>
+    <style>
+      text{font-family:"JetBrains Mono","Cascadia Code",Consolas,monospace}
+      .pulse{animation:pulse 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .pulse2{animation:pulse 2.8s ease-in-out .8s infinite;transform-box:fill-box;transform-origin:center}
+      .dash{stroke-dasharray:12 15;animation:dash 7s linear infinite}
+      .snake{stroke-dasharray:430;stroke-dashoffset:430;animation:trace 4.8s ease-in-out infinite alternate}
+      .scan{animation:scan 5s linear infinite}
+      .blink{animation:blink 1.05s steps(2,end) infinite}
+      .status{animation:status 3.4s ease-in-out infinite}
+      .glitchA{animation:glitchA 6s steps(1,end) infinite}
+      .glitchB{animation:glitchB 6s steps(1,end) infinite}
+      @keyframes pulse{0%,100%{opacity:.35;transform:scale(.82)}50%{opacity:1;transform:scale(1.18)}}
+      @keyframes dash{to{stroke-dashoffset:-270}}
+      @keyframes trace{0%,12%{stroke-dashoffset:430;opacity:.35}65%,100%{stroke-dashoffset:0;opacity:1}}
+      @keyframes scan{0%{transform:translateY(-30px);opacity:0}10%{opacity:.7}90%{opacity:.7}100%{transform:translateY(440px);opacity:0}}
+      @keyframes blink{50%{opacity:0}}
+      @keyframes status{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes glitchA{0%,91%,94%,100%{transform:translate(0)}92%{transform:translate(4px,-1px)}93%{transform:translate(-3px,1px)}}
+      @keyframes glitchB{0%,91%,94%,100%{transform:translate(0)}92%{transform:translate(-4px,1px)}93%{transform:translate(3px,-1px)}}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="22" fill="url(#bg)"/>
+  <g clip-path="url(#frameClip)">
+    <rect x="18" y="18" width="1164" height="384" fill="url(#grid)"/>
+    <circle cx="220" cy="214" r="245" fill="url(#orb)"/>
+    <circle cx="1080" cy="42" r="235" fill="#7c3dff" opacity=".055"/>
+    <path d="M18 87H1182" stroke="#172638"/>
+    <rect class="scan" x="18" y="0" width="1164" height="2" fill="#00f5ff" opacity=".55" filter="url(#glow)"/>
+
+    <g opacity=".55" fill="none" stroke="#7c3dff" stroke-width="1.5" class="dash">
+      <path d="M822 124H930L976 82H1170"/>
+      <path d="M790 318H918L964 364H1170"/>
+      <path d="M890 219H1170"/>
+    </g>
+    <g fill="#00f5ff" filter="url(#softGlow)">
+      <circle class="pulse" cx="930" cy="124" r="4"/>
+      <circle class="pulse2" cx="976" cy="82" r="4"/>
+      <circle class="pulse" cx="918" cy="318" r="4"/>
+      <circle class="pulse2" cx="964" cy="364" r="4"/>
+      <circle class="pulse" cx="1032" cy="219" r="4"/>
+      <circle class="pulse2" cx="1138" cy="219" r="4"/>
+    </g>
+
+    <g transform="translate(78 124)">
+      <path d="M116 0 210 44v82c0 70-43 124-94 148-51-24-94-78-94-148V44Z" fill="#07111f" stroke="url(#neon)" stroke-width="3" filter="url(#softGlow)"/>
+      <path d="M116 20 190 55v68c0 55-32 99-74 121-42-22-74-66-74-121V55Z" fill="none" stroke="#00f5ff" stroke-opacity=".28"/>
+      <path d="M80 84c4-27 54-31 67-7 14 25-22 35-42 43-27 11-30 43-8 56 27 16 66-1 65-31-1-18-19-24-35-18-18 7-33 27-33 50" fill="none" stroke="#00f5ff" stroke-opacity=".16" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="snake" d="M80 84c4-27 54-31 67-7 14 25-22 35-42 43-27 11-30 43-8 56 27 16 66-1 65-31-1-18-19-24-35-18-18 7-33 27-33 50" fill="none" stroke="url(#neon)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+      <circle cx="82" cy="82" r="4" fill="#ff2bd6" class="blink"/>
+      <path d="M90 194h52M100 208h32" stroke="#00f5ff" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+    </g>
+
+    <g transform="translate(346 42)">
+      <circle cx="0" cy="0" r="5" fill="#ff5f57"/>
+      <circle cx="20" cy="0" r="5" fill="#febc2e"/>
+      <circle cx="40" cy="0" r="5" fill="#28c840"/>
+      <text x="65" y="5" font-size="13" fill="#64748b">secure_session@nicolas:~</text>
+    </g>
+
+    <g transform="translate(346 123)">
+      <text x="0" y="0" font-size="15" font-weight="700" fill="#00f5ff">[secure_session::initialized]</text>
+      <text class="glitchA" x="2" y="70" font-size="44" font-weight="800" letter-spacing="1" fill="#00f5ff" opacity=".28">NICOLAS DANIEL</text>
+      <text class="glitchB" x="-2" y="70" font-size="44" font-weight="800" letter-spacing="1" fill="#ff2bd6" opacity=".22">NICOLAS DANIEL</text>
+      <text x="0" y="70" font-size="44" font-weight="800" letter-spacing="1" fill="#f8fafc">NICOLAS DANIEL</text>
+      <text x="0" y="112" font-size="24" font-weight="700" letter-spacing="2" fill="url(#neon)">FULL STACK // CYBERSECURITY</text>
+      <text x="0" y="153" font-size="16" fill="#a9b7c8">Construindo soluções reais. Segurança desde a arquitetura.</text>
+      <text x="0" y="193" font-size="14" fill="#64748b">root@nicoverse:~# verify_identity --professional</text>
+      <rect class="blink" x="530" y="179" width="9" height="18" fill="#00f5ff"/>
+    </g>
+
+    <g transform="translate(346 347)" font-size="12" font-weight="700" letter-spacing="1">
+      <g><rect width="112" height="30" rx="6" fill="#06281f" stroke="#00c853" stroke-opacity=".5"/><circle class="status" cx="16" cy="15" r="4" fill="#00c853"/><text x="28" y="19" fill="#86efac">ONLINE</text></g>
+      <g transform="translate(124)"><rect width="116" height="30" rx="6" fill="#071827" stroke="#00f5ff" stroke-opacity=".45"/><text x="16" y="19" fill="#67e8f9">OWASP_READY</text></g>
+      <g transform="translate(252)"><rect width="104" height="30" rx="6" fill="#160d2c" stroke="#7c3dff" stroke-opacity=".55"/><text x="18" y="19" fill="#c4b5fd">API_BUILD</text></g>
+      <g transform="translate(368)"><rect width="112" height="30" rx="6" fill="#281025" stroke="#ff2bd6" stroke-opacity=".45"/><text x="19" y="19" fill="#f9a8d4">CLOUD_LAB</text></g>
+    </g>
+
+    <text x="1146" y="383" text-anchor="end" font-size="11" fill="#334155">NICOVERSE_OS // BUILD 2026.07</text>
+  </g>
+  <rect x="18" y="18" width="1164" height="384" rx="18" fill="none" stroke="url(#neon)" stroke-width="2" opacity=".7"/>
+</svg>
+

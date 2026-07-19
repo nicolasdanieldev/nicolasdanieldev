@@ -95,6 +95,12 @@ identity:
 
 Estudos atuais: **OWASP Top 10, SQL Injection, XSS, IDOR, autenticação, segurança de APIs e proteção de dados**.
 
+<div align="center">
+
+<img src="./assets/security-operations.svg" width="100%" alt="Painel animado NicoVerse de operações de segurança" />
+
+</div>
+
 ---
 
 ## `cat projects.md --featured`
@@ -222,4 +228,3 @@ open_to:
 <img src="https://capsule-render.vercel.app/api?type=waving&height=125&color=0:00F5FF,50:7C3DFF,100:FF2BD6&section=footer" width="100%" alt="Rodapé colorido" />
 
 </div>
-

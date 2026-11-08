@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="t d">
+<title id="t">Nicolas Daniel - GitHub Contribution Command Center</title>
+<desc id="d">Painel futurista decorativo para a seção de contribuições. Os dados reais estão no gráfico do GitHub abaixo.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#060A12"/><stop offset=".6" stop-color="#0A1728"/><stop offset="1" stop-color="#100B23"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00F5FF"/><stop offset=".58" stop-color="#8C62FF"/><stop offset="1" stop-color="#F04FDB"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#00F5FF" stroke-opacity=".065"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    text{font-family:Consolas,"Cascadia Code",monospace}
+    .dash{stroke-dasharray:8 13;animation:move 7s linear infinite}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    .scan{animation:scan 6s linear infinite}
+    @keyframes move{to{stroke-dashoffset:-210}}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    @keyframes scan{0%{transform:translateY(-6px);opacity:0}10%,90%{opacity:.55}100%{transform:translateY(260px);opacity:0}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+</defs>
+<rect width="1200" height="260" rx="20" fill="url(#bg)"/>
+<rect x="16" y="16" width="1168" height="228" rx="14" fill="url(#grid)" stroke="url(#neon)" stroke-opacity=".65" stroke-width="1.5"/>
+<path d="M16 55H1184" stroke="#17364A"/>
+<rect class="scan" x="17" y="0" width="1166" height="2" fill="#00F5FF"/>
+<circle cx="41" cy="36" r="4" fill="#FF5F57"/><circle cx="57" cy="36" r="4" fill="#FEBC2E"/><circle cx="73" cy="36" r="4" fill="#28C840"/>
+<text x="98" y="41" font-size="13" fill="#8EA5B8">github://nicolasdanieldev/telemetry</text>
+<circle class="pulse" cx="1110" cy="36" r="5" fill="#20E3BC"/>
+<text x="1124" y="41" font-size="12" fill="#20E3BC">ACTIVE</text>
+<text x="55" y="105" font-size="15" fill="#00F5FF" letter-spacing="2">[ ACTIVITY_MONITOR :: GITHUB ]</text>
+<text x="55" y="157" font-size="32" font-weight="bold" fill="#F3F7FF">CONTRIBUTION SIGNAL</text>
+<text x="55" y="193" font-size="15" fill="#AFC2D3">Projetos, experimentos e evolução contínua.</text>
+<text x="55" y="224" font-size="12" fill="#8C62FF">PYTHON / LLMs  ·  SECURE CODE  ·  FULL STACK  ·  CLOUD</text>
+<g transform="translate(815 75)">
+ <rect width="306" height="145" rx="10" fill="#070D18" stroke="#1C4561"/>
+ <text x="19" y="23" font-size="12" fill="#83EAF2">SIGNAL_VISUAL // DECORATIVE</text>
+ <g stroke="#153348" stroke-width="1"><path d="M20 49H288M20 74H288M20 99H288M20 124H288"/><path d="M50 38V129M98 38V129M146 38V129M194 38V129M242 38V129"/></g>
+ <path class="dash" d="M20 114L55 101 83 107 108 79 135 90 162 54 192 72 216 48 245 67 286 40" fill="none" stroke="#8C62FF" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M20 114L55 101 83 107 108 79 135 90 162 54 192 72 216 48 245 67 286 40" fill="none" stroke="#00F5FF" stroke-width="2" stroke-linejoin="round" filter="url(#glow)"/>
+ <circle class="pulse" cx="286" cy="40" r="5" fill="#00F5FF"/>
+</g>
+</svg>
